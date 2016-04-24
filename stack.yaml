@@ -1,0 +1,32 @@
+allow-newer: true
+compiler-check: match-exact
+extra-deps:
+- bmp-1.2.5.2
+- fixed-0.2.1.1
+- gloss-1.10.1.1
+- gloss-rendering-1.10.1.1
+- GLURaw-2.0.0.1
+- GLUT-2.7.0.7
+- half-0.2.2.3
+- MonadRandom-0.4.2.2
+- mtl-2.2.1
+- ObjectName-1.1.0.1
+- OpenGL-3.0.0.2
+- OpenGLRaw-3.1.0.0
+- random-1.1
+- random-shuffle-0.0.4
+- safe-0.3.9
+- split-0.2.3
+- StateVar-1.1.0.4
+- stm-2.4.4.1
+- text-1.2.2.1
+- transformers-compat-0.5.1.4
+install-ghc: true
+require-stack-version: ! '>=1.0.5'
+resolver: ghc-8.0.0.20160204
+setup-info:
+  ghc:
+    macosx:
+      8.0.0.20160204:
+        sha1: 4ef73c4bc4345d45dd171515b94bd6de1e04a4b2
+        url: https://downloads.haskell.org/~ghc/8.0.1-rc2/ghc-8.0.0.20160204-x86_64-apple-darwin.tar.xz

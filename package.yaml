@@ -1,0 +1,34 @@
+category: Game
+description: Bombyard is a minesweeper clone.
+executables:
+  bombyard:
+    dependencies:
+    - base
+    - bombyard
+    ghc-options:
+    - -rtsopts
+    - -threaded
+    - -with-rtsopts=-N
+    main: Main.hs
+    source-dirs: executable
+extra-source-files:
+- CHANGELOG.markdown
+- package.yaml
+- README.markdown
+- stack.yaml
+ghc-options: -Wall
+library:
+  dependencies:
+  - base
+  - gloss
+  - random
+  - random-shuffle
+  - safe
+  - split
+  source-dirs: library
+license: MIT
+license-file: LICENSE.markdown
+maintainer: Taylor Fausak
+name: bombyard
+synopsis: minesweeper
+version: '0.1.0'
